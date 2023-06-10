@@ -16,7 +16,7 @@ spell:vocation("druid;true", "elder druid;true", "knight;true", "elite knight;tr
                "royal paladin;true", "sorcerer;true", "master sorcerer;true")
 spell:castSound(SOUND_EFFECT_TYPE_SPELL_CURE_POISON)
 spell:id(29)
-spell:cooldown(6000)
+spell:cooldown(3000)
 spell:groupCooldown(1000)
 spell:level(10)
 spell:mana(30)
