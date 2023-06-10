@@ -1,6 +1,52 @@
 local stage = configManager.getNumber(configKeys.FREE_QUEST_STAGE)
 
 local questTable = {
+	
+	-- Storages added by me:
+	{storage = Storage.Quest.U8_4.BloodBrothers.VengothAccess, storageValue = 1},
+	{storage = Storage.CultsOfTibia.Minotaurs.EntranceAccessDoor, storageValue = 1},
+	{storage = Storage.Quest.U8_54.TheNewFrontier.SnakeHeadTeleport, storageValue = 1},
+	{storage = Storage.Quest.U12_20.GraveDanger.QuestLine, storageValue = 1},
+	{storage = Storage.TheSecretLibrary.UndergroundBastionAccess, storageValue = 1},	
+	{storage = Storage.TheSecretLibrary.LowerBastionAccess, storageValue = 1},
+	{storage = Storage.WhiteRavenMonastery.Door, storageValue = 1},
+	{storage = Storage.CultsOfTibia.Life.AccessDoor, storageValue = 1},
+	{storage = Storage.OutfitQuest.MageSummoner.AddonHatCloak, storageValue = 10},
+	{storage = Storage.TheSecretLibrary.OberonAccess, storageValue = 1},
+	{storage = Storage.CultsOfTibia.Barkless.BossAccessDoor, storageValue = 1},
+
+	-- Access every boss - soulwar etc
+	{storage = Storage.Quest.U11_80.TheSecretLibrary.ScourgeOfOblivionDoor, storageValue = 1},
+	{storage = Storage.Quest.U12_20.GraveDanger.Bosses.KingZelosDoor, storageValue = 1},
+	{storage = Storage.Quest.U12_30.FeasterOfSouls.FearFeasterKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_30.FeasterOfSouls.DreadMaidenKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_30.FeasterOfSouls.UnwelcomeKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.PlaguerootKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.MalofurKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.MaxxeniusKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.AlptramunKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_00.TheDreamCourts.IzcandarKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_40.SoulWar.GoshnarMegalomaniaKilled, storageValue = 1},
+
+	-- You can also do this for SoulWar Bosses, but I don't recommend because of the reward:
+	{storage = Storage.Quest.U12_40.SoulWar.GoshnarMaliceKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_40.SoulWar.GoshnarHatredKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_40.SoulWar.GoshnarSpiteKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_40.SoulWar.GoshnarCrueltyKilled, storageValue = 1},
+	{storage = Storage.Quest.U12_40.SoulWar.GoshnarGreedKilled, storageValue = 1},	
+
+	-- Wrath of the emperor
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.Wote10, storageValue = 1},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.Rebel, storageValue = 1},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.Zlak, storageValue = 1},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.Zizzle, storageValue = 1},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.Zizzle, storageValue = 3},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.sleepingDragon, storageValue = 1},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.awarnessEmperor, storageValue = 1},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.bossRoom, storageValue = 1},
+	{storage = Storage.WrathoftheEmperor.TeleportAccess.innerSanctum, storageValue = 1},
+
+	-- Default storages
 	{storage = Storage.BigfootBurden.QuestLine, storageValue = 2},
 	{storage = Storage.BigfootBurden.QuestLine, storageValue = 4},
 	{storage = Storage.BigfootBurden.QuestLine, storageValue = 7},
@@ -16,9 +62,9 @@ local questTable = {
 	{storage = Storage.BigfootBurden.Warzone2Access, storageValue = 2},
 	{storage = Storage.BigfootBurden.Warzone3Access, storageValue = 2},
 	{storage = Storage.DangerousDepths.Questline, storageValue = 10},
-	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneVI, storageValue = 10},
-	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneV, storageValue = 10},
-	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneIV, storageValue = 30},
+	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneVI, storageValue = 1},
+	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneV, storageValue = 1},
+	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneIV, storageValue = 1},
 	{storage = Storage.DangerousDepths.Dwarves.Status, storageValue = 10},
 	{storage = Storage.DangerousDepths.Scouts.Status, storageValue = 10},
 	{storage = Storage.DangerousDepths.Gnomes.Status, storageValue = 10},
