@@ -6,6 +6,15 @@ Just add new positions and it go work in the game
 
 ]]
 LevelDoorAction = {
+	-- Doors that SHOULD be opened:
+	[1200] = {
+		itemId = false,
+		itemPos = {
+				{x = 33482, y = 32797, z = 8},
+				{x = 31983, y = 31960, z = 14}
+		}
+},
+
 	-- Doors for level 25
 	[1025] = {
 		itemId = false,
