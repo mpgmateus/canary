@@ -102,22 +102,22 @@ forgeCoreCost = 50
 forgeMaxDust = 225
 forgeFusionCost = 100
 forgeTransferCost = 100
-forgeBaseSuccessRate = 50
+forgeBaseSuccessRate = 60
 forgeBonusSuccessRate = 15
 forgeTierLossReduction = 50
 forgeAmountMultiplier = 3
 forgeMinSlivers = 3
 forgeMaxSlivers = 7
-forgeInfluencedLimit = 300
-forgeFiendishLimit = 3
-forgeFiendishIntervalType = "hour"
-forgeFiendishIntervalTime = "1"
+forgeInfluencedLimit = 2500
+forgeFiendishLimit = 25
+forgeFiendishIntervalType = "minute"
+forgeFiendishIntervalTime = "30"
 
 -- Bestiary & Bosstiary system
 -- NOTE: bestiaryKillMultiplier, multiplier value of monster killed, default 1
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
-bestiaryKillMultiplier = 1
-bosstiaryKillMultiplier = 1
+bestiaryKillMultiplier = 5
+bosstiaryKillMultiplier = 5
 bestiaryRateCharmShopPrice  = 1.0
 boostedBossSlot = true
 boostedBossLootBonus = 250
@@ -161,7 +161,7 @@ allConsoleLog = false
 stashMoving = false
 depotChest = 4
 autoLoot = false
-autoBank = false
+autoBank = true
 toggleGoldPouchAllowAnything = false
 toggleServerIsRetroPVP = false
 toggleTravelsFree = false
@@ -176,16 +176,16 @@ teleportSummons = false
 allowReload = false
 
 -- Stamina in Trainers
-staminaTrainer = false
-staminaTrainerDelay = 5
-staminaTrainerGain = 1
+staminaTrainer = true
+staminaTrainerDelay = 2
+staminaTrainerGain = 2
 -- Stamina in PZ
-staminaPz = false
-staminaOrangeDelay = 1
-staminaGreenDelay = 5
-staminaPzGain = 1
+staminaPz = true
+staminaOrangeDelay = 2
+staminaGreenDelay = 2
+staminaPzGain = 2
 -- Max players allowed on a dummy.
-maxAllowedOnADummy = 1
+maxAllowedOnADummy = 2
 
 -- Save interval per time
 -- NOTE: toggleSaveInterval: true = enable the save interval, false = disable the save interval
@@ -205,7 +205,7 @@ toggleImbuementShrineStorage = false
 -- NOTE: Only quests that are in the "freequests.lua" script table will work
 -- toggleFreeQuest = enable/disable the system
 -- freeQuestStage = if you add more quests to the table, change this value to run freeQuest again
-toggleFreeQuest = false
+toggleFreeQuest = true
 freeQuestStage = 1
 
 -- Deaths
@@ -271,13 +271,13 @@ passwordType = "sha1"
 -- Misc.
 -- NOTE: experienceDisplayRates: set to false to ignore exp rate or true to include exp rate
 allowChangeOutfit = true
-freePremium = false
+freePremium = true
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
-emoteSpells = false
+emoteSpells = true
 allowWalkthrough = true
 coinPacketSize = 25
-coinImagesURL = "http://127.0.0.1/images/store/"
+coinImagesURL = "https://127.0.0.1/images/store/"
 classicAttackSpeed = false
 showScriptsLogInConsole = false
 -- configure maximum value of critical imbuement
@@ -308,22 +308,22 @@ sortLootByChance = false
 -- lowLevelBonusExp works up to level 50
 rateUseStages = false
 lowLevelBonusExp = 50
-rateExp = 1
-rateSkill = 1
-rateLoot = 1
-rateMagic = 1
-rateSpawn = 1
+rateExp = 150
+rateSkill = 50
+rateLoot = 7
+rateMagic = 50
+rateSpawn = 2
 
 -- Killing in the name of Quest
 rateKillingInTheNameOfPoints = 1
 
 -- Today regeneration condition over an loop every 1 second,
 -- So values which should regenerated less then 1 second or won't will work
-rateHealthRegen = 1.0
+rateHealthRegen = 5.0
 rateHealthRegenSpeed = 1.0
-rateManaRegen = 1.0
+rateManaRegen = 5.0
 rateManaRegenSpeed = 1.0
-rateSoulRegen = 1.0
+rateSoulRegen = 3.0
 rateSoulRegenSpeed = 1.0
 
 rateSpellCooldown = 1.0
